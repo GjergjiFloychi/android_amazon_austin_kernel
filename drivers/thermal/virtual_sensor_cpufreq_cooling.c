@@ -29,8 +29,7 @@
 #include <linux/thermal.h>
 #include <linux/cpumask.h>
 #include <linux/cpu_cooling.h>
-#include <thermal_core.h>
-
+#include "thermal_core.h"
 #define MAX_STATE	4 /* 0-4 total 5 */
 
 static ssize_t levels_show(struct device *dev, struct device_attribute *attr, char *buf)
